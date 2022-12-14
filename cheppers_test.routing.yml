@@ -1,0 +1,15 @@
+cheppers_test.test_contents:
+  path: '/content/test-contents'
+  defaults:
+    _controller: '\Drupal\cheppers_test\Controller\TestController::testContents'
+    _title: 'Test contents'
+  requirements:
+    _permission: 'access content'
+
+cheppers_test.test_settings:
+  path: '/admin/config/test-contents-settings'
+  defaults:
+    _form: '\Drupal\cheppers_test\Form\TestContentSettingsForm'
+    _title: 'Test Content Settings'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,5 @@
+name: 'Cheppers Test'
+type: module
+description: 'A Trial Task custom module for Cheppers'
+core_version_requirement: ^8.9 || ^9
+package: 'Cheppers'

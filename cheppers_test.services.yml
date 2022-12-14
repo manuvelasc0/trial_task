@@ -1,0 +1,4 @@
+services:
+  cheppers_test.test_services:
+    class: Drupal\cheppers_test\TestService
+    arguments: ['@entity_type.manager']
